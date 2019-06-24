@@ -1,5 +1,8 @@
+body {
+    font-family: 'VT323', monospace;
+    background-color: black;
+    color: greenyellow;
+}
 p { 
     font-family: 'Keypunch029Regular'; 
-    font-weight: normal; 
-    font-style: normal; 
  }
