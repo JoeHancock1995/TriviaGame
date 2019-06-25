@@ -19,8 +19,44 @@ body {
     font-size: 40px;
     border:5px outset greenyellow;
 }
+.container{
+    line-height: 150%;
+    margin-left: 5%;
+    font-size: 20px;
+}
 #question { 
     font-family: 'Keypunch029Regular'; 
     font-size: 24px;
     margin-bottom: 5px;
+ }
+ .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+.checkmark {
+    position: absolute;
+    left: 17%;
+    height: 13px;
+    width: 13px;
+    background-color: black;
+    border-radius: 50%;
+    border: solid yellowgreen 4px;
+  }
+  .question:hover input ~ .checkmark {
+    background-color: black;
+  }
+  .container input:checked ~ .checkmark {
+    background-color: greenyellow;
+  }
+  
+ input[type=button] {
+     background-color: greenyellow;
+     font-family: 'Keypunch029Regular';
+     font-size: 30px;
+    padding: 10px;
+    padding-bottom: 5px;
+     color: black;
+     width: 100%;
  }
