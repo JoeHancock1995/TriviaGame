@@ -1,4 +1,55 @@
-function check() {
-
-    
-}
+var questions = [{
+    "question": "Where was the first nuclear bomb exploded?",
+    "option1":"White Sands, NM",
+    "option2":"Nagasaki, Japan",
+    "option3":"Hiroshima, Japan",
+    "option4":"Nevada Proving Grounds, NV",
+    "answer":"1",
+}, {
+    "question": "2.Based on estimates, about how many nuclear weapons does the United States have?'(In 1967 their was 31,255 nuclear weapons in the US arsenal)'",
+    "option1":"22,000",
+    "option2":"10,000",
+    "option3":"38,000",
+    "option4":"4,000",
+    "answer":"4",
+}, {
+    "question": "",
+    "option1":"",
+    "option2":"",
+    "option3":"",
+    "option4":"",
+    "answer":"",
+}, {
+    "question": "",
+    "option1":"",
+    "option2":"",
+    "option3":"",
+    "option4":"",
+    "answer":"",
+},{
+    "question": "",
+    "option1":"",
+    "option2":"",
+    "answer":"",
+} {
+    "question": "",
+    "option1":"",
+    "option2":"",
+    "option3":"",
+    "option4":"",
+    "answer":"",
+}, {
+    "question": "",
+    "option1":"",
+    "option2":"",
+    "option3":"",
+    "option4":"",
+    "answer":"",
+}, {
+    "question": "",
+    "option1":"",
+    "option2":"",
+    "option3":"",
+    "option4":"",
+    "answer":"",
+},]

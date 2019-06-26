@@ -23,7 +23,7 @@ body {
 }
 
 /* ----------------------------------question answers-------------------------------- */
-.container{
+.option{
     line-height: 150%;
     margin-left: 5%;
     font-size: 20px;
@@ -35,7 +35,7 @@ body {
  }
 
  /* ----------------------------------radio input-------------------------------- */
- .container input {
+ .option input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -54,7 +54,7 @@ body {
   .question:hover input ~ .checkmark {
     background-color: black;
   }
-  .container input:checked ~ .checkmark {
+  .option input:checked ~ .checkmark {
     background-color: greenyellow;
   }
 
