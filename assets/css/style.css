@@ -18,11 +18,13 @@ body {
     text-align: center;
     font-size: 40px;
     border:5px outset greenyellow;
+    margin: 20px;
+    padding: 20px;
 }
 
 /* ----------------------------------question answers-------------------------------- */
 .option{
-    line-height: 150%;
+    line-height: 200%;
     margin-left: 5%;
     font-size: 20px;
 }
@@ -40,6 +42,9 @@ body {
   }
 
   /* ----------------bullet detail----------------------- */
+  p.checkmark {
+    margin-top: 5px;
+  }
 .checkmark {
     position: absolute;
     left: 17%;
