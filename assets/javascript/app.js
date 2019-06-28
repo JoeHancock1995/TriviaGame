@@ -32,7 +32,7 @@ var questions = [{
     "option2":"Fukushima disaster",
     "option3":"US nuclear weapons tests",
     "option4":"Three Mile Islnd Disaster",
-    "answer":"2",
+    "answer":"3",
 },{
     "question": ". The US has spent at least how much on nuclear weapons?",
     "option1":"$10.4 Billion",
@@ -59,6 +59,7 @@ var currentQuestion = 0;
 var score = 0;
 var totQuestions = questions.length;
 
+
 var container = document.getElementById('quizContainer');
 var questionEl = document.getElementById('question');
 var opt1 = document.getElementById('opt1');
@@ -75,6 +76,22 @@ function loadQuestion (questionIndex) {
     opt2.textContent = q.option2;
     opt3.textContent = q.option3;
     opt4.textContent = q.option4;
+}
+function gameLost() {
+  alert("You lose!");
+}
+setTimeout(gameLost, 60000);
+
+i = 60;
+function onTimer() {
+  document.getElementById('mycounter').innerHTML = i;
+  i--;
+  if (i < 0) {
+    alert('TIMES UP!');
+  }
+  else {
+    setTimeout(onTimer, 1000);
+  }
 }
 
 function loadNextQuestion () {

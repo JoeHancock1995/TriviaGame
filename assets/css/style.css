@@ -59,7 +59,9 @@ body {
   .option input:checked ~ .checkmark {
     background-color: greenyellow;
   }
-
+#counter {
+  color: white
+}
   /* ----------------------------------submit button-------------------------------- */
  input[type=button] {
      background-color: greenyellow;
