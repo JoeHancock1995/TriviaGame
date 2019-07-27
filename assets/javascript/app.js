@@ -77,22 +77,7 @@ function loadQuestion (questionIndex) {
     opt3.textContent = q.option3;
     opt4.textContent = q.option4;
 }
-function gameLost() {
-  alert("You lose!");
-}
-setTimeout(gameLost, 60000);
 
-i = 60;
-function onTimer() {
-  document.getElementById('mycounter').innerHTML = i;
-  i--;
-  if (i < 0) {
-    alert('TIMES UP!');
-  }
-  else {
-    setTimeout(onTimer, 1000);
-  }
-}
 
 function loadNextQuestion () {
     var selectedOption = document.querySelector('input[type=radio]:checked');
