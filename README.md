@@ -9,6 +9,5 @@ When complete, you will be given how many questions were correct and incorrect.
 Good Luck.
 
 
-![Screenshot] (https://github.com/JoeHancock1995/TriviaGame/blob/master/assets/screenshot.png)
 
 ![Image description](https://github.com/JoeHancock1995/TriviaGame/blob/master/assets/screenshot.png)
