@@ -1,6 +1,9 @@
 # TriviaGame
 
-Triviia game about things nuclear weapons related.
-There is 8 total questions you have 30 seconds to answer.
-At the end a score will be shown
+
+Trivia game about things nuclear weapons related.
+
+There is 8 total questions and the user has 30 seconds to answer each one. 
+When complete, you will be given how many questions were correct and incorrect.
+
 Good Luck.
