@@ -7,22 +7,18 @@
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dseg14" type="text/css"/>
     <meta charset="UTF-8"></script>
     <title>Nuclear Trivia</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
-        <div id="counter"></div>
-    <div id="box">
-        <div id="quizContainer" class="container">
-            <div class="title">Nuclear Trivia</div> 
-            <div id="question" class="question"></div>
-                <label class="option"><input type="radio" name='option' value="1" /> <p class="checkmark"></p> <span id="opt1"></span><br></label>
-                <label class="option"><input type="radio" name="option" value="2" /> <p class="checkmark"></p> <span id="opt2"></span><br></label>
-                <label class="option"><input type="radio"  name="option" value="3" /> <p class="checkmark"></p> <span id="opt3"></span><br></label>
-                <label class="option"><input type="radio"  name="option" value="4" /> <p class="checkmark"></p><span id="opt4"></span><br></label>
-                <button id="nextButton" class="next-btn" onClick="loadNextQuestion();">Next Question</button>    
+        <div id="wrapper">
+            <h1>Nuclear Trivia</h1>
+            <div id="sub-wrapper">
+                <div id="quiz-area">
+                    <button id="start">START QUIZ</button>
+                </div>
+            </div>
         </div>
-        <div id="result" class="container result" style="display:none;"></div>    
-    </div>
     <script src="assets/javascript/app.js"></script>
     
     
