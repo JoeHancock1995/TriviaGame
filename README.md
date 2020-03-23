@@ -10,3 +10,5 @@ Good Luck.
 
 
 ![Screenshot] (https://github.com/JoeHancock1995/TriviaGame/blob/master/assets/screenshot.png)
+
+![Image description](https://github.com/JoeHancock1995/TriviaGame/blob/master/assets/screenshot.png)
