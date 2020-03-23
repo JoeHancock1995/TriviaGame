@@ -2,43 +2,43 @@ var card = $("#quiz-area");
 var countStartNumber = 30;
 
 var questions = [{
-    question: ". Where was the first nuclear bomb exploded?",
+    question: "Where was the first nuclear bomb exploded?",
     answers: ["White Sands, NM", "Nagasaki, Japan", "Hiroshima, Japan", "Nevada Proving Grounds, NV"],
     correctAnswer: "White Sands, NM",
     image: "assets/images/trinity_site.jpg"
 }, {
-    question: ". Based on estimates, about how many nuclear weapons does the United States have?'(In 1967 their was 31,255 nuclear weapons in the US arsenal)'",
+    question: "Based on estimates, about how many nuclear weapons does the United States have?'(In 1967 their was 31,255 nuclear weapons in the US arsenal)'",
     answers: ["22,000", "10,000", "38,000", "4,000"],
     correctAnswer: "4,000",
     image: "assets/images/atomic_annie.jpg"
 }, {
-    question: ". About how many nuclear weapons does North Korea have based on tests undertaken and intelligence gathered?",
+    question: "About how many nuclear weapons does North Korea have based on tests undertaken and intelligence gathered?",
     answers: ["755", "105" ,"25" ,"475"],
     correctAnswer: "25",
     image: "assets/images/NK_weapons.jpg"
 }, {
-    question: ". Since the test of the first nuclear bomb in 1945 the US has conducted 1,053 more tests. Where were most of these tests conducted?",
+    question: "Since the test of the first nuclear bomb in 1945 the US has conducted 1,053 more tests. Where were most of these tests conducted?",
     answers: ["Pacific Proving Grounds, Marshal Islands", "White Sands Missile Range, NM", "Nevada Proving Grouds, NV", "Rulison Test Site, CO"],
     correctAnswer: "Nevada Proving Grouds, NV",
     image: "assets/images/NVproving2.jpg"
 },{
-    question: ". What rleased more nuclear radiation?",
+    question: "What rleased more nuclear radiation?",
     answers: ["Chernobyl disaster", "Fukushima disaster", "US nuclear weapons tests", "Three Mile Islnd Disaster"],
     correctAnswer: "US nuclear weapons tests",
     image: "assets/images/radition.jpg"
 },{
-    question: ". The US has spent at least how much on nuclear weapons?",
+    question: "The US has spent at least how much on nuclear weapons?",
     answers: [ "$10.4 Billion", "$9.3 Trillion", "$2.6 Billion", "$1.9 Trillion"],
     correctAnswer: "$9.3 Trillion",
     image: "assets/images/trinity2.jpg"
 }, {
-    question: ". What was the most powerful explosive ever detonated?",
+    question: "What was the most powerful explosive ever detonated?",
     answers: ["M.O.A.B (United States)", "Dong Feng-4 (China)", "Tsar Bomba (Soviet Union)", "Ivy Mike (United States)"],
     correctAnswer: "Tsar Bomba (Soviet Union)",
     image: "assets/images/tsar_bomba.jpg"
 
 }, {
-    question: ". The US and Russia posses how much of the worlds nuclear weapons?",
+    question: "The US and Russia posses how much of the worlds nuclear weapons?",
     answers: [ "50%", "65%", "75%", "90%"],
     correctAnswer: "90%",
     image: "assets/images/nuclear_stockpiles.png"
